@@ -1,0 +1,22 @@
+.rec-arrow-right {
+  display: none  !important;
+}
+
+.rec-arrow-left {
+  display: none  !important;
+}
+
+.rec-pagination {
+  margin-top: -35px !important;
+  position: relative;
+}
+
+.rec-dot_active {
+  background-color: var(--button-color) !important;
+  box-shadow: 0 0 1px 3px var(--button-color) !important;
+}
+
+.rec-dot:hover, .rec-dot:focus {
+  cursor: pointer;
+  box-shadow: 0 0 1px 3px var(--button-color) !important;
+}

@@ -10,7 +10,21 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `socials`,
+        path: `${__dirname}/src/assets/images/socials`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `sites`,
+        path: `${__dirname}/src/assets/images/sites`,
       },
     },
     `gatsby-transformer-sharp`,
