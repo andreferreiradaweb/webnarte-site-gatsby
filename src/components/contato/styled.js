@@ -16,6 +16,19 @@ export const ContentWrapper = styled.div`
 
 export const Title = styled.h1`
   color: var(--blue-dark);
+
+  @media screen and (max-width: 1024px) {
+    font-size: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 45px;
+  }
+  @media screen and (max-width: 442px) {
+    font-size: 35px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 30px;
+  } 
 `
 
 export const Desc = styled.p`
@@ -25,8 +38,29 @@ export const Desc = styled.p`
 export const ContentButton = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   margin-top: 40px;
+  width: 550px;
+
+  @media screen and (max-width: 592px) {
+    width: 100%;
+    flex-direction: column;
+  }
+`
+
+export const Number = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  @media screen and (max-width: 592px) {
+    margin-bottom: 10px;
+  }
+`
+
+export const Button = styled.div`
+  width: 250px
 `
 
 export const Strong = styled.div`
@@ -35,5 +69,9 @@ export const Strong = styled.div`
   font-size: 20px;
   font-weight: bold;
   font-family: var(--font);
+
+  @media screen and (max-width: 442px) {
+    font-size: 16px;
+  }
 `
 

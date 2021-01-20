@@ -17,6 +17,20 @@ export const Content = styled.div`
 export const Title = styled.h1`
   color: var(--font-color);
   font-size: 30px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 50px;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 45px;
+  }
+  @media screen and (max-width: 442px) {
+    font-size: 35px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 30px;
+  }
 `
 
 export const ContentImages = styled.div`

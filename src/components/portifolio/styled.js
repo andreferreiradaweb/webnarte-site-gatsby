@@ -18,15 +18,51 @@ export const HeaderWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
+
+  @media screen and (max-width: 1224px) {
+    justify-content: space-around;
+  }
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    
+  }
+  @media screen and (max-width: 442px) {
+    
+  }
+  @media screen and (max-width: 320px) {
+    
+  }
 `
 
 export const TitleGroup = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 657px) {
+   margin-bottom: 30px; 
+  }
 `
 
 export const Title = styled.h1`
   color: var(--blue-dark);
+
+  @media screen and (max-width: 1024px) {
+    font-size: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 45px;
+  }
+  @media screen and (max-width: 657px) {
+    text-align: center;
+  }
+  @media screen and (max-width: 442px) {
+    font-size: 35px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 30px;
+  } 
 `
 
 export const Description = styled.p`
@@ -44,6 +80,10 @@ export const NavButton = styled.button`
   border: none;
   background: var(--blue-light);
   transition: .3s all;
+
+  @media screen and (max-width: 400px) {
+    padding: 10px;
+  } 
 
   &.active {
     background: var(--button-color) !important;

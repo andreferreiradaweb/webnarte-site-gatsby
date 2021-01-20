@@ -11,12 +11,18 @@ export const Button = styled(Link)`
   font-size: ${({ big }) => (big ? '20px' : '16px')};
   outline: none;
   border: none;
+  text-align: center;
   min-width: 100px;
-  width: ${({ fixWidth }) => (fixWidth ? '150px' : '')};
+  width: ${({ fixWidth }) => (fixWidth ? `${fixWidth}` : '')};
   cursor: pointer;
   text-decoration: none;
   transition: 0.3s !important;
   border-radius: ${({ round }) => (round ? '10px' : 'none')};
+
+  @media screen and (max-width: 442px) {
+    font-size: 14px;
+    padding: 10px;
+  }
 
   &:hover {
     background: ${({primary}) => (primary ? '#1c0051' : '#5bb8ea')};

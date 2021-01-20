@@ -26,6 +26,19 @@ export const ContentWrapper = styled.div`
 export const Title = styled.h1`
   text-align: center;
   color: var(--white);
+
+  @media screen and (max-width: 1024px) {
+    font-size: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 45px;
+  }
+  @media screen and (max-width: 442px) {
+    font-size: 35px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 30px;
+  }          
 `
 
 export const ContentInfo = styled.div`
@@ -35,6 +48,10 @@ export const ContentInfo = styled.div`
   justify-content: space-around;
   width: 100%;
   flex-wrap: wrap;
+
+  @media screen and (max-width: 442px) {
+    margin-top: 50px;
+  }
 `
 
 export const ContentText = styled.div`
@@ -42,6 +59,10 @@ export const ContentText = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 350px;
+
+  @media screen and (max-width: 442px) {
+    margin-bottom: 50px;
+  }
 `
 
 export const Name = styled.strong`

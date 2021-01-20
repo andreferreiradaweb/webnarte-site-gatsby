@@ -45,7 +45,7 @@ const Portifolio = () => {
     }
 
   return (
-    <S.PortifolioContainer>
+    <S.PortifolioContainer id="portifolio">
       <Margin>
         <S.ContentWrapper>
 

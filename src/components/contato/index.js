@@ -8,7 +8,7 @@ import { Button } from '../button'
 
 const Contato = () => {
   return (
-    <S.ContainerBg>
+    <S.ContainerBg id="contato">
       <Margin>
         <S.ContentWrapper>
 
@@ -16,21 +16,27 @@ const Contato = () => {
           <S.Desc>Entre em contato e solicite seu orçamento agora mesmo.</S.Desc>
 
           <S.ContentButton>
-            <FaWhatsapp style={{fill: 'var(--blue-dark)', fontSize: '30px'}} />
-            <S.Strong>(85) 9 97139967</S.Strong>
-            <Button primary="true" round="true" to="#servicos">Enviar mensagem</Button>
+            <S.Number>
+              <FaWhatsapp style={{fill: 'var(--blue-dark)', fontSize: '30px'}} />
+              <S.Strong>(85) 9 97139967</S.Strong>
+            </S.Number>
+            <Button primary="true" fixWidth="200px" round="true" to="#servicos">Enviar mensagem</Button>
           </S.ContentButton>
 
           <S.ContentButton>
-            <BiPhoneCall style={{fill: 'var(--blue-dark)', fontSize: '30px'}} />
-            <S.Strong>(85) 9 97139967</S.Strong>
-            <Button primary="true" round="true" to="#servicos">Ligar</Button>
+            <S.Number>
+              <BiPhoneCall style={{fill: 'var(--blue-dark)', fontSize: '30px'}} />
+              <S.Strong>(85) 9 97139967</S.Strong>
+            </S.Number>
+            <Button primary="true" fixWidth="200px" round="true" to="#servicos">Ligar</Button>
           </S.ContentButton>
 
           <S.ContentButton>
-            <AiOutlineMail style={{fill: 'var(--blue-dark)', fontSize: '30px'}} />
-            <S.Strong>webnarte@gmail.com</S.Strong>
-            <Button primary="true" round="true" to="#servicos">Enviar E-mail</Button>
+            <S.Number>
+              <AiOutlineMail style={{fill: 'var(--blue-dark)', fontSize: '30px'}} />
+              <S.Strong>webnarte@gmail.com</S.Strong>
+            </S.Number>
+            <Button primary="true" fixWidth="200px" round="true" to="#servicos">Enviar E-mail</Button>
           </S.ContentButton>
 
         </S.ContentWrapper>

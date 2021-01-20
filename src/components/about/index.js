@@ -22,7 +22,7 @@ const About = () => {
   )
 
   return (
-    <S.AboutContainer>
+    <S.AboutContainer id="sobre">
       
         <S.AboutBg src={Bg} />
 
@@ -35,7 +35,7 @@ const About = () => {
                     <S.Name>André Ferreira</S.Name>
                     <S.Prof>UI/UX Designer | Programador</S.Prof>
                     <S.Description>rewgwg gregerg fgfhjfg f h rth trhtrhrthrthrt rthrthrthrt hrthrthrth rt hrt hrterge rge rgergerge ger gerg3rg 34 4g34 3 43 34t43</S.Description>
-                    <Button primary="true" fixWidth="true" round="true" to="#servicos">Saiba mais</Button>
+                    <Button primary="true" fixWidth="150px" round="true" to="#servicos">Saiba mais</Button>
                   </S.ContentText>
 
                   <S.ContentImage>
