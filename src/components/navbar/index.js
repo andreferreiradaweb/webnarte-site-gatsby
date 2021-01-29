@@ -15,14 +15,17 @@ const Navbar = () => {
     setHover(false)
   }
 
-  const handleClick = () => setValue(!value)
+  const handleClick = () => {
+    setValue(!value)
+  }
+  
 
   return (
     
       <S.ContentWrapper>
         <S.ContentNav>
           <S.List>
-          <S.Item><S.Link onClick={handleClick}><AiOutlineClose 
+          <S.Item><S.StyledLink onClick={handleClick}><AiOutlineClose 
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           size='40'
@@ -30,10 +33,10 @@ const Navbar = () => {
             fill: hover ? 'var(--blue-light)' : 'var(--button-color)',
             cursor: 'pointer',
             }}
-          /></S.Link></S.Item>
+          /></S.StyledLink></S.Item>
           {menuData.map((item, index) => (
-            <S.Item to={item.link} key={index}>
-              <S.Link>{item.title}</S.Link>
+            <S.Item key={index}>
+              <S.StyledLink onClick={handleClick} to={item.link}>{item.title}</S.StyledLink>
             </S.Item>
           ))}
           </S.List>

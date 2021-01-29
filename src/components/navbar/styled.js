@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 import { slideInDown } from 'react-animations';
+import { Link } from 'gatsby'
 
 const bounceAnimation = keyframes`${slideInDown}`;
 
@@ -24,12 +25,11 @@ export const List = styled.ul`
   flex-direction: column;
 `
 
-export const Item = styled.li`
-  margin: 15px 0;
-`
+export const Item = styled.li``
 
-export const Link = styled.a`
+export const StyledLink = styled(Link)`
   cursor: pointer;
+  margin: 15px 0;
   padding: 10px;
   border-radius: 10px;
   color: var(--button-color);
