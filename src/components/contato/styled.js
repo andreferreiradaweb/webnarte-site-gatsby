@@ -59,10 +59,6 @@ export const Number = styled.div`
   }
 `
 
-export const Button = styled.div`
-  width: 250px
-`
-
 export const Strong = styled.div`
   margin: 0 20px;
   color: var(--blue-dark);

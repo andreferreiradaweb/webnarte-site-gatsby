@@ -8,7 +8,7 @@ const Footer = () => {
       <Margin>
         <S.Content>
           <S.ContentColumn>
-            <S.ColumnTitle>This is a title</S.ColumnTitle>
+            <S.ColumnTitle>Contatos</S.ColumnTitle>
             <S.ColumnItem>item 1</S.ColumnItem>
             <S.ColumnItem>item 2</S.ColumnItem>
             <S.ColumnItem>item 3</S.ColumnItem>
@@ -16,7 +16,7 @@ const Footer = () => {
           </S.ContentColumn>
 
           <S.ContentColumn>
-            <S.ColumnTitle>This is a title</S.ColumnTitle>
+            <S.ColumnTitle>Serviços</S.ColumnTitle>
             <S.ColumnItem>item 1</S.ColumnItem>
             <S.ColumnItem>item 2</S.ColumnItem>
             <S.ColumnItem>item 3</S.ColumnItem>
@@ -24,7 +24,7 @@ const Footer = () => {
           </S.ContentColumn>
 
           <S.ContentColumn>
-            <S.ColumnTitle>This is a title</S.ColumnTitle>
+            <S.ColumnTitle>Outros serviços</S.ColumnTitle>
             <S.ColumnItem>item 1</S.ColumnItem>
             <S.ColumnItem>item 2</S.ColumnItem>
             <S.ColumnItem>item 3</S.ColumnItem>
@@ -32,7 +32,7 @@ const Footer = () => {
           </S.ContentColumn>
 
           <S.ContentColumn>
-            <S.ColumnTitle>This is a title</S.ColumnTitle>
+            <S.ColumnTitle>Mapa do site</S.ColumnTitle>
             <S.ColumnItem>item 1</S.ColumnItem>
             <S.ColumnItem>item 2</S.ColumnItem>
             <S.ColumnItem>item 3</S.ColumnItem>

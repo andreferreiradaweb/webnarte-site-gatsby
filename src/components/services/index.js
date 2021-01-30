@@ -10,7 +10,7 @@ const Services = () => {
       <Margin>
         <S.ContentWrapper>
           <S.MainTitle>Serviços</S.MainTitle>
-          <S.MainDescription>qdqwjdnqwdqnw qwdqwnkjd gregerqhr hrt hrth rt e<br/> ergergere reggeg erge hrt hrd qwnd qj nwj dnq jwnjqndjqwn jq dnjqwndjqnwd jqwnjnwq jd nqwj</S.MainDescription>
+          <S.MainDescription>"bem começado, metade feito!".<br/>- Aristóteles</S.MainDescription>
 
           <S.ServicosContainer>
               {Items.map((item, i) => {

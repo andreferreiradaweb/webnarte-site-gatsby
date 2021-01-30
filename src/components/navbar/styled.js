@@ -25,15 +25,30 @@ export const List = styled.ul`
   flex-direction: column;
 `
 
-export const Item = styled.li``
-
-export const StyledLink = styled(Link)`
-  cursor: pointer;
+export const Item = styled.li`
   margin: 15px 0;
+`
+
+export const StyledClose = styled.a`
+  cursor: pointer;
   padding: 10px;
   border-radius: 10px;
   color: var(--button-color);
   font-size: 20px;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--blue-light);
+  }
+`
+
+export const StyledLink = styled(Link)`
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--button-color);
+  font-size: 20px;
+  text-decoration: none;
 
   &:hover {
     color: var(--blue-light);

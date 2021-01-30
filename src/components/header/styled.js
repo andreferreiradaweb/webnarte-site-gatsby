@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { FaBars } from 'react-icons/fa'
 
 export const Nav = styled.nav`
@@ -13,6 +14,23 @@ export const Nav = styled.nav`
 `
 
 export const NavLink = styled(Link)`
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: .5s all;
+  cursor: pointer;
+
+  &:hover {
+    background: ${({ bgBlueOff }) => ( bgBlueOff ? '' : 'var(--button-color)')};
+    transition: .3s all;
+    transform: translateY(-5px);
+  }
+`
+
+export const NavLinkAnchor = styled(AnchorLink)`
   color: var(--white);
   display: flex;
   align-items: center;

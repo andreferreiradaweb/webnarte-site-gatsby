@@ -15,17 +15,15 @@ const Header = () => {
     <ValueContext.Provider value={{ value, setValue }}>
     {value ? <Navbar /> : ''}
     <S.Nav>
-      <S.NavLink id="home" bgBlueOff="true"><S.NavLogo src={Logo} /></S.NavLink>
+      <S.NavLink to="/" id="home" bgBlueOff="true"><S.NavLogo src={Logo} /></S.NavLink>
       <S.Bars onClick={handleClick}/>
       <S.NavMenu>
         {menuData.map((item, index) => (
-          <S.NavLink to={item.link} key={index}>
-            {item.title}
-          </S.NavLink>
+          <S.NavLinkAnchor to={item.link} key={index} title={item.title} />
         ))}
       </S.NavMenu>
       <S.NavBtn>
-        <Button primary="true" round="true" to="/trips">
+        <Button primary="true" round="true" to="https://wa.me/5585997139967" target="_new">
           Whatsapp
         </Button>
       </S.NavBtn>

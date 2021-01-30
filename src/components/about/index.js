@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 import * as S from './styled'
 import { Margin } from '../styles/margin'
-import { Button } from '../button'
 import Bg from '../../assets/images/banner2.jpg'
 
 const About = () => {
@@ -34,8 +33,17 @@ const About = () => {
                   <S.ContentText>
                     <S.Name>André Ferreira</S.Name>
                     <S.Prof>UI/UX Designer | Programador</S.Prof>
-                    <S.Description>rewgwg gregerg fgfhjfg f h rth trhtrhrthrthrt rthrthrthrt hrthrthrth rt hrt hrterge rge rgergerge ger gerg3rg 34 4g34 3 43 34t43</S.Description>
-                    <Button primary="true" fixWidth="150px" round="true" to="#servicos">Saiba mais</Button>
+                    <S.Description>
+                      Trabalho com TI desde 2011, já trabalhei em
+                      algumas Agências de Marketing Digital, e hoje atuo 
+                      como Programador e Analista de Marketing Digital.<br/><br/>
+
+                      Meu principal objetivo na Webnarte é fazer o que amo e ajudar pessoas a
+                      venderem ou alcançar potenciais clientes através da internet.<br/><br/>
+                      
+                      Utilizo as tecnologias mais modernas existentes, sempre pensando em
+                      performance, segurança e boas práticas.
+                    </S.Description>
                   </S.ContentText>
 
                   <S.ContentImage>

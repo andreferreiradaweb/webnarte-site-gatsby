@@ -39,14 +39,16 @@ const Depoimento = () => {
             </Carousel>
           </S.ContentLeft>
           <S.ContentRight>
-            <S.Title>This is a fucking title</S.Title>
-            <S.Desc>wefwefwef wefwefwef feh4 hghyhjtgfh hfghfgh dfgdfgd gdfg</S.Desc>
+            <S.Title>Depoimentos</S.Title>
+            <S.Desc>Estes são os depoimentos de pessoas
+            que confiam em nosso trabalho, e apoiam nossas
+            qualidade que são:</S.Desc>
             <S.Ul>
-              <S.Li><AiFillStar style={{ marginRight: '10px' }}/> sei nem que porra colocar</S.Li>
-              <S.Li><AiFillStar style={{ marginRight: '10px' }}/> sei nem que porra colocar</S.Li>
-              <S.Li><AiFillStar style={{ marginRight: '10px' }}/> sei nem que porra colocar</S.Li>
-              <S.Li><AiFillStar style={{ marginRight: '10px' }}/> sei nem que porra colocar</S.Li>
-              <S.Li><AiFillStar style={{ marginRight: '10px' }}/> sei nem que porra colocar</S.Li>
+              <S.Li><AiFillStar style={{ marginRight: '10px' }}/>Qualidade no atendimento</S.Li>
+              <S.Li><AiFillStar style={{ marginRight: '10px' }}/>Qualidade nos serviços</S.Li>
+              <S.Li><AiFillStar style={{ marginRight: '10px' }}/>Performance nos sites</S.Li>
+              <S.Li><AiFillStar style={{ marginRight: '10px' }}/>Desempenho nas campanhas</S.Li>
+              <S.Li><AiFillStar style={{ marginRight: '10px' }}/>Suporte rápido</S.Li>
             </S.Ul>
           </S.ContentRight>
         </S.ContentWrapper>
