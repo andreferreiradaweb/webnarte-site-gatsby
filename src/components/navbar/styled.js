@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 import { slideInDown } from 'react-animations';
-import { Link } from 'gatsby'
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const bounceAnimation = keyframes`${slideInDown}`;
 
@@ -42,7 +42,7 @@ export const StyledClose = styled.a`
   }
 `
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled(AnchorLink)`
   cursor: pointer;
   padding: 10px;
   border-radius: 10px;
