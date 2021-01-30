@@ -35,8 +35,8 @@ const Navbar = () => {
             }}
           /></S.StyledLink></S.Item>
           {menuData.map((item, index) => (
-            <S.Item key={index}>
-              <S.StyledLink onClick={handleClick} to={item.link}>{item.title}</S.StyledLink>
+            <S.Item onClick={handleClick} key={index}>
+              <S.StyledLink to={item.link}>{item.title}</S.StyledLink>
             </S.Item>
           ))}
           </S.List>
