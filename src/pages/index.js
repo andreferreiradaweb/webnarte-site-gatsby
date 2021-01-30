@@ -9,9 +9,11 @@ import Depoimento from "../components/depoimento"
 import Empresas from "../components/empresas"
 import Contato from "../components/contato"
 import Footer from "../components/Footer"
+import TopButton from '../components/topButton'
 
 const IndexPage = () => (
   <Layout>
+    <TopButton />
     <SEO title="Home" />
     <Banner />
     <Services />

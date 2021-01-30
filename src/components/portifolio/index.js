@@ -52,7 +52,7 @@ const Portifolio = () => {
           <S.HeaderWrapper>
             <S.TitleGroup>
               <S.Title>Portifólio</S.Title>
-              <S.Description>Some description you can see here right now</S.Description>
+              <S.Description>Veja alguns de nossos trabalhos</S.Description>
             </S.TitleGroup>
 
             <S.NavGroup>

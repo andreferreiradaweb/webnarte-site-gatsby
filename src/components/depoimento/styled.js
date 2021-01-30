@@ -131,7 +131,7 @@ export const Desc = styled.div`
 export const Ul = styled.div``
 export const Li = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   align-items: center;
   margin-bottom: 10px;
