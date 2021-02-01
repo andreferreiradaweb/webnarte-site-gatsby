@@ -41,7 +41,7 @@ const Depoimento = () => {
           <S.ContentRight>
             <S.Title>Depoimentos</S.Title>
             <S.Desc>Estes são os depoimentos de pessoas
-            que confiam em nosso trabalho, e apoiam nossas
+            que confiam em nosso <br/>trabalho, e apoiam nossas
             qualidade que são:</S.Desc>
             <S.Ul>
               <S.Li><AiFillStar style={{ marginRight: '10px' }}/>Qualidade no atendimento</S.Li>

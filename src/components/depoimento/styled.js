@@ -64,7 +64,7 @@ export const Item = styled.div`
   justify-content: space-between;
   border-radius: 20px;
   align-items: center;
-  height: 450px;
+  height: 350px;
   width: 100%;
   padding: 50px 30px;
   margin: 5px;
@@ -127,6 +127,7 @@ export const Title = styled.h1`
 
 export const Desc = styled.div`
   margin: 10px 0 30px;
+  text-align: center;
 `
 export const Ul = styled.div``
 export const Li = styled.div`

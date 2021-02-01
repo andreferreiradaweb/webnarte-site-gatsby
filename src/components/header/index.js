@@ -15,7 +15,7 @@ const Header = () => {
     <ValueContext.Provider value={{ value, setValue }}>
     {value ? <Navbar /> : ''}
     <S.Nav>
-      <S.NavLink to="/" id="home" bgBlueOff="true"><S.NavLogo src={Logo} /></S.NavLink>
+      <S.NavLink to="/" id="inicio" bgBlueOff="true"><S.NavLogo src={Logo} /></S.NavLink>
       <S.Bars onClick={handleClick}/>
       <S.NavMenu>
         {menuData.map((item, index) => (
