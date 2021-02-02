@@ -19,17 +19,18 @@ const Link = styled(AnchorLink)`
   padding: 12px;
   border-radius: 30px;
   background: var(--button-color);
+  filter: opacity(50%);
   transition: .3s;
 
   &:hover {
-    filter: opacity(60%);
+    filter: opacity(100%);
   }
 `
 
 export default function TopButton() {
   return (
     <Button>
-      <Link to="/#home"><AiOutlineArrowUp size="25"/></Link>
+      <Link to="/#inicio"><AiOutlineArrowUp size="25"/></Link>
     </Button>
   )
 }

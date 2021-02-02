@@ -1,5 +1,6 @@
 import React from 'react'
 import * as S from './styled'
+import { menuData } from '../header/data/menuData'
 import { Margin } from '../styles/margin'
 
 const Footer = () => {
@@ -9,34 +10,26 @@ const Footer = () => {
         <S.Content>
           <S.ContentColumn>
             <S.ColumnTitle>Contatos</S.ColumnTitle>
-            <S.ColumnItem>item 1</S.ColumnItem>
-            <S.ColumnItem>item 2</S.ColumnItem>
-            <S.ColumnItem>item 3</S.ColumnItem>
-            <S.ColumnItem>item 4</S.ColumnItem>
+            <S.ColumnItem>Whatsapp: (85) 9 9713-9967</S.ColumnItem>
+            <S.ColumnItem>Celular: (85) 9 9713-9967</S.ColumnItem>
+            <S.ColumnItem>E-mail: webnarte@gmail.com</S.ColumnItem>
           </S.ContentColumn>
 
           <S.ContentColumn>
             <S.ColumnTitle>Serviços</S.ColumnTitle>
-            <S.ColumnItem>item 1</S.ColumnItem>
-            <S.ColumnItem>item 2</S.ColumnItem>
-            <S.ColumnItem>item 3</S.ColumnItem>
-            <S.ColumnItem>item 4</S.ColumnItem>
+            <S.ColumnItem>Sites</S.ColumnItem>
+            <S.ColumnItem>Lojas Virtuais</S.ColumnItem>
+            <S.ColumnItem>Sistemas web</S.ColumnItem>
+            <S.ColumnItem>Gestão de tráfego</S.ColumnItem>
+            <S.ColumnItem>Redes Sociais</S.ColumnItem>
+            <S.ColumnItem>Consultoria</S.ColumnItem>
           </S.ContentColumn>
 
           <S.ContentColumn>
-            <S.ColumnTitle>Outros serviços</S.ColumnTitle>
-            <S.ColumnItem>item 1</S.ColumnItem>
-            <S.ColumnItem>item 2</S.ColumnItem>
-            <S.ColumnItem>item 3</S.ColumnItem>
-            <S.ColumnItem>item 4</S.ColumnItem>
-          </S.ContentColumn>
-
-          <S.ContentColumn>
-            <S.ColumnTitle>Mapa do site</S.ColumnTitle>
-            <S.ColumnItem>item 1</S.ColumnItem>
-            <S.ColumnItem>item 2</S.ColumnItem>
-            <S.ColumnItem>item 3</S.ColumnItem>
-            <S.ColumnItem>item 4</S.ColumnItem>
+          <S.ColumnTitle>Navegação</S.ColumnTitle>
+          {menuData.map((item, index) => (
+            <S.ColumnItem><S.Link to={item.link} key={index} title={item.title} /></S.ColumnItem>
+        ))}
           </S.ContentColumn>
         </S.Content>
       </Margin>
