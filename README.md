@@ -1,6 +1,6 @@
 # Langing Page - Webnarte
 
-<img align="center" width="70%" src="https://i.imgur.com/qZsrqNu.jpg">
+<img align="center" width="100%" src="https://i.imgur.com/qZsrqNu.jpg">
 
 I made this website to talk about my services and attract new customers.
 
