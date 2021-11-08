@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import * as S from './styled'
-import ImagesSites from './ImagesSites'
-import ImagesSocials from './ImagesSocials'
+import ImagesInstitucionais from './ImagesInstitucionais'
+import ImagesLandingpages from './ImagesLandingpages'
 import { Margin } from '../styles/margin'
 
 const Portifolio = () => {
@@ -31,16 +31,16 @@ const Portifolio = () => {
     }
 
     const filtredImages = () => {
-      if(tag === 'social') {
+      if(tag === 'landingpages') {
         return <>
-          <ImagesSocials />
+          <ImagesLandingpages />
         </>
-      } else if(tag === 'site') {
-        return <ImagesSites />
+      } else if(tag === 'institucionais') {
+        return <ImagesInstitucionais />
       }
       return <>
-        <ImagesSites />
-        <ImagesSocials />
+        <ImagesInstitucionais />
+        <ImagesLandingpages />
       </>
     }
 
@@ -57,8 +57,8 @@ const Portifolio = () => {
 
             <S.NavGroup>
               <S.NavButton onClick={() => handleClick('all')} className={tag === 'all' ? 'active' : ''}>Mostrar tudo</S.NavButton>
-              <S.NavButton onClick={() => handleClick('site')} className={tag === 'site' ? 'active' : ''}>Sites</S.NavButton>
-              <S.NavButton onClick={() => handleClick('social')} className={tag === 'social' ? 'active' : ''}>Redes Sociais</S.NavButton>
+              <S.NavButton onClick={() => handleClick('institucionais')} className={tag === 'institucionais' ? 'active' : ''}>Institucionais</S.NavButton>
+              <S.NavButton onClick={() => handleClick('landingpages')} className={tag === 'landingpages' ? 'active' : ''}>Landing Pages</S.NavButton>
             </S.NavGroup>
           </S.HeaderWrapper>
           

@@ -17,17 +17,7 @@ const items = [
   {
     icon: 'MdWeb',
     title: 'Desenvolvimento de sistemas',
-    description: 'Crie um sistema totalmente personalizado para seu negócio como um CRM, Customer Base, sistema de delivery ou qualquer lógica que desejar.'
-  },
-  {
-    icon: 'FaCommentDots',
-    title: 'Gestão de Redes Sociais',
-    description: 'Alcance mais seguidores e obtenha resultados com suas redes sociais. Elaboramos estratégias de conversão, alcance e engajamento nas Redes Sociais.'
-  },
-  {
-    icon: 'FaUserTie',
-    title: 'Consultoria',
-    description: 'Mentoria para empresas e Investidores que buscam um direcionamento sobre assustos específicos como sistemas, vendas e comunicação na internet.'
+    description: 'Crie um sistema totalmente personalizado para alcançar os objetivos do seu negócio. Consulte-nos para saber mais.'
   },
 ]
 

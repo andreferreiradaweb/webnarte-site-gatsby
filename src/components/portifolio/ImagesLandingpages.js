@@ -2,10 +2,10 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import * as S from './styled'
 
-const ImagesSites = () => {
+const ImagesLandingpages = () => {
   const { allFile: { edges } } = useStaticQuery(graphql`
-    query SitesQuery {
-      allFile(filter: {relativeDirectory: {eq: "sites"}}) {
+    query SocialsQuery {
+      allFile(filter: {relativeDirectory: {eq: "landingpages"}}) {
         edges {
           node {
             childImageSharp {
@@ -28,4 +28,4 @@ const ImagesSites = () => {
   )
 }
 
-export default ImagesSites
+export default ImagesLandingpages
