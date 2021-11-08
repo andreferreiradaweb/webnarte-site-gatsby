@@ -32,17 +32,16 @@ const About = () => {
                 <S.ContentInfo>
                   <S.ContentText>
                     <S.Name>André Ferreira</S.Name>
-                    <S.Prof>UI/UX Designer | Programador</S.Prof>
+                    <S.Prof>Desenvolvedor Web</S.Prof>
                     <S.Description>
-                      Trabalho com TI desde 2011, já trabalhei em
-                      algumas Agências de Marketing Digital, e hoje atuo 
-                      como Programador e Analista de Marketing Digital.<br/><br/>
+                      Trabalho com desenvolvimento web desde 2015, em minha jornada como
+                      desenvolvedor já tive a oportunidade de trabalhar em grandes empresas.<br/><br/>
 
-                      Meu principal objetivo na Webnarte é fazer o que amo e ajudar pessoas a
-                      venderem ou alcançar potenciais clientes através da internet.<br/><br/>
+                      Meu principal objetivo na Webnarte é fazer o que amo e ajudar pessoas
+                       alcançarem seus objetivos na internet.<br/><br/>
                       
                       Utilizo as tecnologias mais modernas existentes, sempre pensando em
-                      performance, segurança e boas práticas.
+                      performance, segurança e com foco total nos resultados. E aí, vamos trabalhar juntos?
                     </S.Description>
                   </S.ContentText>
 
