@@ -25,14 +25,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `socials`,
-        path: `${__dirname}/src/assets/images/socials`,
+        path: `${__dirname}/src/assets/images/landingpages`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `sites`,
-        path: `${__dirname}/src/assets/images/sites`,
+        path: `${__dirname}/src/assets/images/institucionais`,
       },
     },
     `gatsby-transformer-sharp`,
