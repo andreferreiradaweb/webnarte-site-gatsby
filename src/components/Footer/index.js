@@ -21,8 +21,6 @@ const Footer = () => {
             <S.ColumnItem>Lojas Virtuais</S.ColumnItem>
             <S.ColumnItem>Sistemas web</S.ColumnItem>
             <S.ColumnItem>Gestão de tráfego</S.ColumnItem>
-            <S.ColumnItem>Redes Sociais</S.ColumnItem>
-            <S.ColumnItem>Consultoria</S.ColumnItem>
           </S.ContentColumn>
 
           <S.ContentColumn>
