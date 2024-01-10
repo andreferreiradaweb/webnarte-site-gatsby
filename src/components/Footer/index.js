@@ -10,8 +10,8 @@ const Footer = () => {
         <S.Content>
           <S.ContentColumn>
             <S.ColumnTitle>Contatos</S.ColumnTitle>
-            <S.ColumnItem>Whatsapp: (85) 9 9713-9967</S.ColumnItem>
-            <S.ColumnItem>Celular: (85) 9 9713-9967</S.ColumnItem>
+            <S.ColumnItem>Whatsapp: (85) 9 8161-5515</S.ColumnItem>
+            <S.ColumnItem>Celular: (85) 9 8161-5515</S.ColumnItem>
             <S.ColumnItem>E-mail: webnarte@gmail.com</S.ColumnItem>
           </S.ContentColumn>
 

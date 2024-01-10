@@ -18,17 +18,17 @@ const Contato = () => {
           <S.ContentButton>
             <S.Number>
               <FaWhatsapp style={{fill: 'var(--blue-dark)', fontSize: '30px'}} />
-              <S.Strong>(85) 9 97139967</S.Strong>
+              <S.Strong>(85) 9 8161-5515</S.Strong>
             </S.Number>
-            <Button primary="true" fixWidth="200px" round="true" to="https://wa.me/5585997139967" target="_new">Enviar mensagem</Button>
+            <Button primary="true" fixWidth="200px" round="true" to="https://wa.me/5585981615515" target="_new">Enviar mensagem</Button>
           </S.ContentButton>
 
           <S.ContentButton>
             <S.Number>
               <BiPhoneCall style={{fill: 'var(--blue-dark)', fontSize: '30px'}} />
-              <S.Strong>(85) 9 97139967</S.Strong>
+              <S.Strong>(85) 9 8161-5515</S.Strong>
             </S.Number>
-            <ButtonA primary="true" fixWidth="200px" round="true" href="tel:85997139967">Ligar</ButtonA>
+            <ButtonA primary="true" fixWidth="200px" round="true" href="tel:85981615515">Ligar</ButtonA>
           </S.ContentButton>
 
           <S.ContentButton>
